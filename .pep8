@@ -1,0 +1,8 @@
+[style]
+based_on_style = chromium
+[pep8]
+ignore = E305
+max-line-length = 88
+max-complexity = 18
+select = E1, E2, E301, E401, W2, W3
+indent-size = 2
