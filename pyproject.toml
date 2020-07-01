@@ -1,4 +1,4 @@
-[tool.autopep8]
+[tool.yapf]
 py37 = true
 include = '\.pyi?$'
 exclude = '''
