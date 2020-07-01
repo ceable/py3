@@ -1,5 +1,4 @@
 # Python3.x seed-code
-<<<<<<< bobuntu-readme
 
 Starter boilerplate for python3.x projects complete with **git-hooks** that trigger
 the linter to format the code before committing changes.
