@@ -15,11 +15,9 @@ def show_progress(iterable, increment_percent=1, verbose=False, total=100):
         print('.', end='')
       else:
         print(
-            int((time() - toc) * 100) / 100,
-            ':',
+            int((time() - toc) * 100) / 100, ':',
             int(1 / total * 10000) / 100,
-            'percent complete (' + str(i) + ' of ' + str(total) + ')'
-        )
+            'percent complete (' + str(i) + ' of ' + str(total) + ')')
       sys.stdout.flush()
     yield x
   print('\n')
