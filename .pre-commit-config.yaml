@@ -1,4 +1,8 @@
 repos:
+  - repo: https://github.com/pre-commit/mirrors-pylint
+    rev: "v2.5.3" # Use the sha / tag you want to point at
+    hooks:
+      - id: pylint
   - repo: https://github.com/pre-commit/mirrors-yapf
     rev: "v0.30.0"
     hooks:
